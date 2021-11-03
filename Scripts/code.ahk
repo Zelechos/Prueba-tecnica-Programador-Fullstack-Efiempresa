@@ -10,5 +10,6 @@
 ::poi::const Par_Impar = Number => (Number % 2 == 0)? console.log(Number,' es Par') : console.log(Number,' es Impar');
 ::nal::let numeroAleatorio = Math.round(Math.random() * 1000);//0 al 1000
 
+
 ; Links
 ::ghl:: https://github.com/Zelechos
