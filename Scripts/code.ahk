@@ -1,5 +1,4 @@
 ﻿#SingleInstance Force
-#IfWinActive, ahk_class Chrome_WidgetWin_1
 ; #NoTrayIcon
 
 ; Code JavaScript
