@@ -1,7 +1,6 @@
 ﻿#SingleInstance Force
 #IfWinActive, ahk_class Chrome_WidgetWin_1
 ; #NoTrayIcon
-
 ; Code JavaScript
 ::fact::const factorial = Numero => (Numero== 0 || Numero ==1)? 1 : Numero * factorial(Numero-1);
 
