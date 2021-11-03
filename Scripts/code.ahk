@@ -15,6 +15,5 @@
 
 ::nal::let numeroAleatorio = Math.round(Math.random() * 1000);//0 al 1000
 
-
 ; Links
 ::ghl:: https://github.com/Zelechos
