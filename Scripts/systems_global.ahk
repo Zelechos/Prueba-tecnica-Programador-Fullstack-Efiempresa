@@ -2,6 +2,7 @@
 ; #NoTrayIcon
 
 ::ahk::%programdata%\Microsoft\Windows\Start Menu\Programs\Startup
+::trg::traductor de google
 
 !i::
 Run, F:\Git\git-bash.exe
