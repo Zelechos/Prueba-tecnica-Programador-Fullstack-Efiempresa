@@ -11,6 +11,22 @@
 ::voc::const vowels = word => (new RegExp(/[aeiou]/gi).test(word)) ? word.match(/[aeiou]/gi).length : 0;
 ::oif::const funcion = (value === value) ? console.log("value true") : console.log("value false");
 
+;Comand GIT
+::gc:: git commit -m ""
+::gp:: git push
+::gs:: git status
+::gb:: git branch
+::gsb:: git show-branch
+::ga:: git add .
+::gc:: git checkout
+::gps:: git push -u origin 
+::gm:: git merge master -m ""
+
+
+; Console Commands
+::cl:: clear
+
+
 ; Links
 ::ghl:: https://github.com/Zelechos
 ::alx:: alextumirihuanca@gmail.com
