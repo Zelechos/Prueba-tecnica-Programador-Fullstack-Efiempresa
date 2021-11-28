@@ -13,3 +13,6 @@
 
 ; Links
 ::ghl:: https://github.com/Zelechos
+::alx:: alextumirihuanca@gmail.com
+::lkn:: https://www.linkedin.com/in/alex-tumiri-huanca-6234b3195/
+::ptf:: https://zelechos.github.io/PragmaticCoder/
