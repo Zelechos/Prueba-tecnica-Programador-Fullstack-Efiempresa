@@ -6,7 +6,8 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
- * Class that implements the logic to obtain all the students from Malaga enrolled in Mathematics and French
+ * Class that implements the logic to obtain all the students from Malaga
+ * enrolled in Mathematics and French
  * to send the respective emails
  */
 public class SecondChallenge {
@@ -20,7 +21,11 @@ public class SecondChallenge {
      * @param headquarters The headquarters (sede) to filter students.
      * @return Set of student names from Malaga.
      */
-    public Set<String> notifyStudents(List<String> listA, List<String> listB, List<String> listC, String headquarters) {
+    public Set<String> notifyStudents(
+            List<String> listA,
+            List<String> listB,
+            List<String> listC,
+            String headquarters) {
 
         // Combine all student names from the three lists
         Set<String> allStudents = new HashSet<>();
@@ -29,6 +34,8 @@ public class SecondChallenge {
         allStudents.addAll(listC);
 
         // Filter students from Malaga to send Emails
-        return allStudents.stream().filter(student -> student.contains(headquarters)).collect(Collectors.toSet());
+        return allStudents.stream()
+                .filter(student -> student.contains(headquarters))
+                .collect(Collectors.toSet());
     }
 }
